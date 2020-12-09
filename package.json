@@ -1,0 +1,20 @@
+{
+  "name": "glacier-delete-archives",
+  "version": "1.0.0",
+  "description": "Mass Delete archives from a AWS Glacier Vault, so you can delete the vault itself.",
+  "main": "glacier-delete.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "glacier",
+    "aws",
+    "delete-archive",
+    "aws-cli"
+  ],
+  "author": "Harvey Chow",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
