@@ -1,7 +1,7 @@
 # Delete all archives in a AWS Glacier Vault
-Amazon doesn't provide an easy way to delete Glacier vaults. When a vault still contains archives, you'll have to delete them before deleting archives. This is quite a troublesome process.
+Amazon doesn't provide an easy way to delete Glacier vaults. When a vault still contains archives, you'll have to delete them before you're able to delete the vault. This is quite a troublesome process.
 
-First you need fetch a list of all archives. Which can take several hours. Then you need to extract the `ArchiveId` from each archive and manually delete the archive via a `aws-cli` command.
+First you will need to fetch a list of all archives. Which can take several hours. Then you need to extract the `ArchiveId` from each archive and manually delete the archive via a `aws-cli` command.
 
 This script helps you with this last step.
 
